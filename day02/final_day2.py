@@ -1,0 +1,18 @@
+project = input("Название проекта: ")
+members = int(input("Количество участников: "))
+cost = float(input("Стоимость ресурса на участника: "))
+months = int(input("Количество месяцев: "))
+student = input("Имя ответственного: ")
+month_cost = cost * members
+total_cost = month_cost * months
+name_len = len(project)
+print("=" * 40)
+print("ПРОЕКТ:", project)
+print("Ответственный:", student)
+print("Участников:", members)
+print("Расход за месяц:", month_cost)
+print("Общий расход:", total_cost)
+print("Длина названия:", name_len)
+print("Первый символ:", project[0])
+print("Последний символ:", project[-1])
+print("=" * 40)

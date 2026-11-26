@@ -1,0 +1,5 @@
+age = int(input("Возраст: "))
+if age == 18:
+    print("Ровно 18")
+else:
+    print("Возраст другой")

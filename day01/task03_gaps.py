@@ -1,0 +1,6 @@
+name = input("Введите имя: ")
+surname = input("Введите фамилию: ")
+group = input("Введите группу: ")
+print("Имя:", name)
+print("Фамилия:", surname)
+print("Группа:", group)

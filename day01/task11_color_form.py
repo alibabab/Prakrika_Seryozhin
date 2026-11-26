@@ -1,0 +1,12 @@
+from colorama import Fore, Style
+name = input("Введите имя: ")
+surname = input("Введите фамилию: ")
+group = input("Введите группу: ")
+speciality = input("Введите специальность: ")
+print(Fore.CYAN + "=== АНКЕТА ===")
+print(Fore.GREEN + "Имя:", name)
+print(Fore.GREEN + "Фамилия:", surname)
+print(Fore.GREEN + "Группа:", group)
+print(Fore.GREEN + "Специальность:", speciality)
+print(Fore.YELLOW + "Работа завершена")
+print(Style.RESET_ALL)
