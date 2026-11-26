@@ -1,5 +1,0 @@
-name = input("Введите имя: ")
-group = input("Введите группу: ")
-print("=== РЕЗУЛЬТАТ ===")
-print("Имя:", name)
-print("Группа:", group)
