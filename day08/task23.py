@@ -1,8 +1,0 @@
-import pandas as pd
-data = {
-    "Имя": ["Анна", "Иван", "Олег"],
-    "Баллы": [85, 72, 91]
-}
-df = pd.DataFrame(data)
-df["Статус"] = "учится"
-print(df)
