@@ -1,4 +1,0 @@
-import pandas as pd
-df = pd.read_csv("students.csv")
-df["Пропущено"] = 20 - df["Посещено"]
-print(df)
